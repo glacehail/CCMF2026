@@ -1,0 +1,16 @@
+{
+  "name": "CCMF 2026 \u2013 Symposium",
+  "short_name": "CCMF 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0f172a",
+  "background_color": "#0b1220",
+  "description": "The 2nd International Symposium for Young Researchers on Civil & Construction Materials and Fracture (CCMF 2026)."
+}
