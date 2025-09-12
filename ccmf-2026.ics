@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CCMF 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fabcd53c-cbdd-4592-aad0-294ca06ce8e1@ccmf-2026.local
+DTSTAMP:20250912T170255Z
+SUMMARY:CCMF 2026 - The 2nd International Symposium for Young Researchers
+DESCRIPTION:CCMF 2026 at The University of Osaka. Visit the website for details.
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20260315
+LOCATION:Nakanoshima Center, The University of Osaka, Osaka, Japan
+URL:https://example.com/
+END:VEVENT
+END:VCALENDAR
