@@ -8,49 +8,37 @@
   <meta name="theme-color" content="#0f172a">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
-  <meta property="og:title" content="CCMF 2026 - The 2nd International Symposium for Young Researchers - Challenges & Collaboration in the Research of Material Fracture - Civil Engineering & Construction">
-  <meta property="og:description" content="March 12–14, 2026 • The University of Osaka">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/img/logo.svg">
-  <meta property="og:locale" content="en_US">
-  <meta name="twitter:card" content="summary_large_image">
   <link rel="preload" as="style" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "CCMF 2026 - The 2nd International Symposium for Young Researchers - Challenges & Collaboration in the Research of Material Fracture - Civil Engineering & Construction",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "startDate": "2026-03-12",
-  "endDate": "2026-03-14",
-  "location": {
-    "@type": "Place",
-    "name": "The University of Osaka",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Osaka",
-      "addressRegion": "Osaka",
-      "addressCountry": "JP"
-    }
-  },
-  "description": "A symposium connecting young researchers in civil engineering, construction materials, and structural fracture/deterioration, focusing on macro- to meso-scale behavior relevant to real infrastructures.",
-  "image": "assets/img/logo.svg",
-  "organizer": {
-    "@type": "Organization",
-    "name": "CCMF 2026 Organizing Committee"
-  }
+<style id="ccmf-overrides">
+
+/* === CCMF quick overrides === */
+.hero{
+  position:relative; overflow:hidden;
+  background: url('assets/img/hero-bg.jpg') center top / contain no-repeat;
+  aspect-ratio: 2000 / 983; /* adjust to your image ratio if needed */
+  border-bottom:1px solid var(--border);
+  background-color:#eaf2ff;
 }
-  </script>
+.hero-inner{ padding: 13vh 0 2rem; } /* ≈ top 1/4 */
+.hero h1{ color:#fff; text-shadow:0 2px 8px rgba(0,0,0,.35); }
+.meta{ color:#fff; text-shadow:0 1px 6px rgba(0,0,0,.4); }
+
+/* Ensure three date cards look consistent */
+.cards .card{
+  min-height:140px;
+  display:flex; flex-direction:column; justify-content:center;
+}
+.inline-link{ color:#005bbb; font-weight:600; text-decoration:underline; }
+.inline-link:hover{ text-decoration:none; }
+
+</style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" data-scrolled="false">
     <div class="container">
-      <a class="brand" href="#top" aria-label="CCMF 2026 Home">
-        <img src="assets/img/logo.svg" alt="CCMF 2026 logo" width="140" height="32" loading="eager">
-      </a>
+      <a class="brand" href="#top" aria-label="CCMF 2026 Home">CCMF 2026</a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">☰</button>
       <nav id="site-nav" class="site-nav" aria-label="Primary">
         <ul>
@@ -70,24 +58,15 @@
       <div class="container hero-inner">
         <div class="hero-text">
           <p class="label">Symposium</p>
-          <h1 id="hero-title">CCMF 2026 - The 2nd International Symposium for Young Researchers - Challenges & Collaboration in the Research of Material Fracture - Civil Engineering & Construction</h1>
+          <h1 id="hero-title">CCMF 2026 - The 2nd International Symposium for Young Researchers - Challenges &amp; Collaboration in the Research of Material Fracture - Civil Engineering &amp; Construction</h1>
           <p class="meta">
             <time datetime="2026-03-12">March 12–14, 2026</time>
             <span class="dot" aria-hidden="true">•</span>
             <span>The University of Osaka</span>
             <span class="dot" aria-hidden="true">•</span>
-            <span>(2026.3.12–14)</span>
+            <span>Nakanoshima Center</span>
           </p>
-          <div class="cta">
-            <a class="btn primary" href="ccmf-2026.ics" download aria-label="Add CCMF 2026 to your calendar">Add to Calendar</a>
-            <a class="btn" href="#about">Learn more</a>
-          </div>
         </div>
-      </div>
-      <div class="wave" aria-hidden="true">
-        <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
-          <path d="M0,96L48,85.3C96,75,192,53,288,64C384,75,480,117,576,144C672,171,768,181,864,176C960,171,1056,149,1152,149.3C1248,149,1344,171,1392,181.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-        </svg>
       </div>
     </section>
 
@@ -167,7 +146,8 @@
           </article>
         </div>
         <aside class="note" role="note">
-          CCMF 2026 particularly welcomes cross-disciplinary contributions that link materials engineering with structural design, assessment, and asset management, as well as collaboration-oriented sessions for young researchers.
+          <br>
+CCMF 2026 particularly welcomes cross-disciplinary contributions that link materials engineering with structural design, assessment, and asset management, as well as collaboration-oriented sessions for young researchers.
         </aside>
       </div>
     </section>
@@ -178,16 +158,16 @@
         <div class="cards">
           <div class="card">
             <h3>Symposium</h3>
-            <p><strong>March 12–14, 2026</strong> <br><small>(2026.3.12–14)</small></p>
+            <p><strong>March 12–14, 2026</strong></p>
           </div>
           <div class="card">
             <h3>Call for Papers</h3>
-            <p>Details coming soon.</p>
+            <p>You will be contacted by our team.</p>
           </div>
           <div class="card">
-            <h3>Registration</h3>
-            <p>Opens later. Stay tuned.</p>
-          </div>
+  <h3>Registration</h3>
+  <p>Register via <a class="inline-link" href="https://forms.gle/2D8NNVkNypL2Bj2i9" target="_blank" rel="noopener">Google Forms</a></p>
+</div>
         </div>
         <p class="helper">Download an <a href="ccmf-2026.ics" download>ICS file</a> to add the dates to your calendar.</p>
       </div>
@@ -221,10 +201,10 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section alt">
       <div class="container">
         <h2>Contact</h2>
-        <p>Questions? Email: <a href="mailto:ccmf2026@example.com">f-jiang@civil.eng.osaka-u.ac.jp</a></p>
+        <p>Questions? Email: <a href="mailto:f-jiang@civil.eng.osaka-u.ac.jp">f-jiang@civil.eng.osaka-u.ac.jp</a></p>
         <p class="helper"> </p>
       </div>
     </section>
@@ -232,7 +212,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2026 CCMF Organizing Committee. All rights reserved.</p>
+      <div class="footer-brand"><span>© 2026 CCMF Organizing Committee. All rights reserved.</span>
+      </div>
       <a class="back-to-top" href="#top" aria-label="Back to top">↑ Back to top</a>
     </div>
   </footer>
