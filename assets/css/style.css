@@ -66,3 +66,23 @@ a.link-card:hover .card{border-color:var(--ou-blue)}
 .site-footer .footer-brand{display:flex;align-items:center;gap:.65rem}
 .site-footer .footer-brand img{height:28px;width:auto;display:block}
 .back-to-top{text-decoration:none;color:#fff;opacity:.9}
+/* Hide "Skip to content" by default, show only on keyboard focus */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: #fff;
+  color: #000;
+  z-index: 1000;
+}
